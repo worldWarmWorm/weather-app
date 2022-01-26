@@ -11,7 +11,10 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["cli", "weather"],
+  "keywords": [
+    "cli",
+    "weather"
+  ],
   "author": "Davydkin Valiry",
   "license": "ISC",
   "homepage": "http://localhost:3000",
@@ -24,6 +27,8 @@
     "email": "st.valeriq@gmail.com"
   },
   "dependencies": {
-    "axios": "^0.25.0"
+    "axios": "^0.25.0",
+    "chalk": "^5.0.0",
+    "dedent-js": "^1.0.1"
   }
 }
