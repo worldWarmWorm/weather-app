@@ -39,7 +39,6 @@ const getForcast = async () => {
   try {
     const weather = await getWeather(process.env.CITY);
     printWeather(weather);
-    // console.log(weather)
   } catch (error) {
     if (error?.response?.status == 404) {
       printError("Неверно указан город");

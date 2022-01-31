@@ -35,7 +35,6 @@ const printHelp = () => {
 };
 
 const printWeather = (res) => {
-  console.log(res)
   console.log(dedent`
     ${chalk.bgMagenta(" WEATHER ")} Погода в городе ${res.name} по состоянию на ${_getPrettyDate(res.dt)}:
     ${_capitalizeFirstLetter(res.weather[0].description)}
