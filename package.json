@@ -1,5 +1,5 @@
 {
-  "name": "weather-cli",
+  "name": "weather-cli-www",
   "version": "1.0.0",
   "description": "CLI for getting weather",
   "main": "weather.js",
@@ -15,7 +15,7 @@
     "cli",
     "weather"
   ],
-  "author": "Davydkin Valiry",
+  "author": "Davydkin Valery",
   "license": "ISC",
   "homepage": "http://localhost:3000",
   "repository": {
