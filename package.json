@@ -17,13 +17,13 @@
   ],
   "author": "Davydkin Valery",
   "license": "ISC",
-  "homepage": "http://localhost:3000",
+  "homepage": "https://github.com/worldWarmWorm/weather-app.git",
   "repository": {
     "type": "git",
-    "directory": "http://localhost:3000"
+    "directory": "https://github.com/worldWarmWorm/weather-app.git"
   },
   "bugs": {
-    "url": "http://localhost:3000",
+    "url": "https://github.com/worldWarmWorm/weather-app.git",
     "email": "st.valeriq@gmail.com"
   },
   "dependencies": {
