@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { getArgs } from "./helpers/args.js";
-import { getWeather, getIcon } from "./services/api.service.js";
+import { getWeather } from "./services/api.service.js";
 import {
   printHelp,
   printError,
@@ -38,7 +38,7 @@ const saveCity = async (city) => {
 const getForcast = async () => {
   try {
     const weather = await getWeather(process.env.CITY);
-    printWeather(weather, getIcon(weather.weather[0].icon));
+    printWeather(weather);
   } catch (error) {
     if (error?.response?.status == 404) {
       printError("Неверно указан город");

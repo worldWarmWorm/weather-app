@@ -19,10 +19,10 @@ const printHelp = () => {
   `);
 };
 
-const printWeather = (res, icon) => {
+const printWeather = (res) => {
   console.log(dedent`
     ${chalk.bgYellow(" WEATHER ")} Погода в городе ${res.name}
-    ${icon} ${res.weather[0].description}
+    ${res.weather[0].description}
     Температура: ${res.main.temp}, ощущается как ${res.main.feels_like}
     Влажность: ${res.main.humidity}%
     Скорость ветра: ${res.wind.speed}
